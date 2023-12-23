@@ -1,0 +1,168 @@
+/* navigation */
+.navi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 53px;
+    
+} 
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Inter';
+    }
+.button-1 {
+    background-color: #6B77E5;
+    height: 65px;
+    width: 184px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: cabin;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main-part */
+.main-head {
+    margin-top: 136px;
+    text-align: center;
+    
+
+}
+ .main-head .text-1 {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 18px;
+}
+.main-head .h-1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #37393F;
+    font-family: poppins;
+}
+
+/* video box */
+.box-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+    gap:31px;
+}
+.box {
+    background-color:#F4F4F4;
+    width: 386px;
+    height: 383px;
+    text-align: center;
+    }
+.box-title {
+    color:#37393F;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    top: 15%;
+} 
+.box-text {
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 22%
+}   
+.box-item {
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 600;
+    color:#6B77E5;
+    position: relative;
+    top: 35%;
+}
+.box-icon {
+    position: relative;
+    top: 40%;
+}
+.video-box {
+    background-image: url(assets/images/Mask\ group.png);
+    margin-top: 60px;
+    height: 557px;
+    text-align: center;
+}
+.video-box .item {
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: 22%;
+}
+.video-box .title {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 700;
+    color: #37393F;
+    position: relative;
+    top: 25%;
+}
+.video-box .text {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    top: 30%;
+}
+.video-box .icon {
+    position: relative;
+    top: 40%;
+}
+/* team section */
+.team-part {
+    text-align: center;
+    margin-top: 130px;
+}
+.team-part .item {
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 500;
+    color: #37393F;
+}
+.team-part .title {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 40px;
+    color: #37393F;
+}
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    margin-top: 41px;
+}
+.team-box .box {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 341px;
+    height: 114px;
+    position: relative;
+    bottom: 23%;
+    left: 5%;
+}
+.team-box .name {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    top: 15%;
+    color: #37393F;
+}
+.team-box .title {
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 22%;
+}
